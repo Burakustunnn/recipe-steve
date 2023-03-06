@@ -1,10 +1,12 @@
-import React from 'react'
+import { Navigate, Outlet } from 'react-router-dom'
 
 const PrivateRouter = () => {
+    const user = true
   return (
-    <div>
-      
-    </div>
+    <>
+      {user ? <Outlet/> : <Navigate to="/login" />}
+     
+    </>
   )
 }
 

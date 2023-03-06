@@ -1,10 +1,9 @@
-import React from 'react'
-
+import {LoginContainer} from "./Login.style.jsx"
 const Login = () => {
   return (
-    <div>
+    <LoginContainer>sdfsdf
       
-    </div>
+    </LoginContainer>
   )
 }
 
