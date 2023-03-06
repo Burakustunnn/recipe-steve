@@ -6,9 +6,8 @@ height:calc(100vh - 53px);
 background-image: url('https://picsum.photos/1600/900');
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
-object-position: center;
- 
+background-position: center; 
+
 `;
 
 export const FormContainer= styled(FlexStyle)`
@@ -24,11 +23,10 @@ padding: 1rem;
 export const StyledImg = styled.img`
   width: 150px;
   margin: 1rem;  
-  animation: haraket 7s ease infinite;
-  animation-direction: alternate;
-  
+  animation: act 7s ease infinite;
+  animation-direction: alternate;  
 
-  @keyframes haraket {
+  @keyframes act {
     0% {
         transform:translateX(0px );
     }

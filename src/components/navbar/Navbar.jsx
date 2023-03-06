@@ -7,12 +7,6 @@ import { Hamburger, Menu, MenuLink, Nav } from "./Navbar.style";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
-
-
-
-
-
-
   return (
     <Nav x="space-between">
       <div>
